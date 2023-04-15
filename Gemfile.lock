@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    decidim-calendar (0.26.0)
-      decidim-admin (>= 0.25.0, < 0.27)
-      decidim-core (>= 0.25.0, < 0.27)
+    decidim-calendar (0.27.0)
+      decidim-admin (>= 0.25.0, < 0.28)
+      decidim-core (>= 0.25.0, < 0.28)
 
 GEM
   remote: https://rubygems.org/
@@ -755,10 +755,10 @@ DEPENDENCIES
   bootsnap (~> 1.7)
   byebug (~> 11.0)
   codecov
-  decidim (>= 0.25.0, < 0.27)
+  decidim (>= 0.25.0, < 0.28)
   decidim-calendar!
-  decidim-consultations (>= 0.25.0, < 0.27)
-  decidim-dev (>= 0.25.0, < 0.27)
+  decidim-consultations (>= 0.25.0, < 0.28)
+  decidim-dev (>= 0.25.0, < 0.28)
   faker (~> 2.14)
   letter_opener_web
   listen (~> 3.1)
@@ -769,7 +769,7 @@ DEPENDENCIES
   web-console
 
 RUBY VERSION
-   ruby 2.7.6p219
+   ruby 3.1.4p223
 
 BUNDLED WITH
-   2.3.13
+   2.3.26
